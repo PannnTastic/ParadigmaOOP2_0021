@@ -12,3 +12,12 @@ class remotelampu{
             return saklarno [i];
         }
 };
+
+int main (){
+    remotelampu lampu;
+
+    lampu.setsaklarno(0, "Lampu Teras");
+    lampu.setsaklarno(1, "lampu ruang tamu");
+    lampu.setsaklarno(2, "Lampu kamar tidur");
+    lampu.setsaklarno(3, "Lampu Dapur");
+}
