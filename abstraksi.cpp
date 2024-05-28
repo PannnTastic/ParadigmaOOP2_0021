@@ -17,3 +17,9 @@ class abstraksi{
             cout << "y = " << y << endl;
         }
 };
+
+int main (){
+    abstraksi a;
+    a.setxy("Yogyakarta" , "Kampus");
+    a.display();
+}
