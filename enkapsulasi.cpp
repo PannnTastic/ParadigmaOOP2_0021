@@ -20,4 +20,9 @@ int main (){
     lampu.setsaklarno(1, "lampu ruang tamu");
     lampu.setsaklarno(2, "Lampu kamar tidur");
     lampu.setsaklarno(3, "Lampu Dapur");
+
+    cout << lampu.getsaklarno(0) << endl;
+    cout << lampu.getsaklarno(1) << endl;
+    cout << lampu.getsaklarno(2) << endl;
+    cout << lampu.getsaklarno(3) << endl;
 }
